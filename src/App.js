@@ -4,11 +4,15 @@ import Home from "./components/home/home";
 import Classify from "./components/classify/classify";
 import ShoppingCar from "./components/shoppingcar/shoppingcar";
 import My from "./components/my/my";
-import { Provider } from "react-redux";
+
+import {icon_action} from "./action/actionCreator";
+import { Provider,connect } from "react-redux";
 import store from "./store";
 
 class App extends Component {
   render() {
+    let {iconPic} = this.props;
+    console.log(iconPic)
     return (
       <Provider store={store}>
         <Router>
@@ -49,6 +53,19 @@ class App extends Component {
       </Provider>
     );
   }
+  componentDidMount(){
+    this.props.getData()
+  }
 }
 
-export default App;
+const mapStateToProps = (state)=>({
+  iconPic:state.home.iconPic
+})
+
+const mapDispatchToProps = (dispatch)=>({
+  getData(){
+    dispatch(icon_action())
+  }
+})
+
+export default connect(mapStateToProps,mapDispatchToProps)(App);

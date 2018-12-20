@@ -5,4 +5,5 @@ import "./common/js/flexble";
 import "./common/css/footer.css";
 import "./common/css/reset.css";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+ReactDOM.render(<App /> ,document.getElementById('root'));
