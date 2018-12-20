@@ -4,6 +4,8 @@ import Home from "./components/home/home";
 import Classify from "./components/classify/classify";
 import ShoppingCar from "./components/shoppingcar/shoppingcar";
 import My from "./components/my/my";
+import Register from "./components/my/children/register";
+import Login from "./components/my/children/login";
 import { Provider } from "react-redux";
 import store from "./store";
 
@@ -12,12 +14,14 @@ class App extends Component {
     return (
       <Provider store={store}>
         <Router>
-          <div>
+          <div id="app">
             <Switch>
               <Route path="/home" component={Home} />
               <Route path="/classify" component={Classify} />
               <Route path="/shoppingCar" component={ShoppingCar} />
-              <Route path="/my" component={My} />
+              <Route path="/my" exact component={My} />
+              <Route path="/my/register" component={Register} />
+              <Route path="/my/login" component={Login} />
               <Redirect path="/" to="/home" />
             </Switch>
             <div id="footer">
