@@ -10,11 +10,6 @@ import { Provider } from "react-redux";
 import store from "./store";
 class App extends Component {
   render() {
-    let {iconPic} = this.props;
-<<<<<<< HEAD
-=======
-    // console.log(iconPic)
->>>>>>> lgq
     return (
       <Provider store={store}>
         <Router>
@@ -62,10 +57,6 @@ class App extends Component {
     );
   }
 }
-<<<<<<< HEAD
-export default App;
-=======
 
 
 export default App;
->>>>>>> lgq

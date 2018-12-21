@@ -2,11 +2,7 @@
 #userHeader{
     width: 100%;
     height: 2.88rem;
-<<<<<<< HEAD
     background: linear-gradient(150deg,#ff5a61 50%,#fd631c)
-=======
-    background: #ff464e;
->>>>>>> lgq
 }
 #userHeader>.headerTop{
     display: flex;

@@ -1,18 +1,9 @@
-<<<<<<< HEAD
 import React, { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
 import "./css/my.css";
 
 export default class My extends Component {
     render() {
-=======
-import React,{Component,Fragment} from "react";
-import {HashRouter as Router,Route,Link,Switch} from "react-router-dom";
-import "./css/my.css";
-
-export default class My extends Component{
-    render(){
->>>>>>> lgq
         return (
             <Fragment>
                 <header id="userHeader">
@@ -27,7 +18,6 @@ export default class My extends Component{
                     </div>
                 </header>
                 <section id="userbox">
-<<<<<<< HEAD
                     <Link to="#" className="myOrder"><span>我的订单</span><span>全部订单</span></Link>
                     <div className="userItem">
                         <Link to="#">
@@ -63,9 +53,6 @@ export default class My extends Component{
                         <Link to="#">客户端</Link>
                         <Link to="#">电脑版</Link>
                     </footer>
-=======
-                    <Link to="#" className="myOrder">我的订单</Link>
->>>>>>> lgq
                 </section>
             </Fragment>
         )
