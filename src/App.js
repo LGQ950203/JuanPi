@@ -8,9 +8,9 @@ import Register from "./components/my/children/register";
 import Login from "./components/my/children/login";
 import { Provider } from "react-redux";
 import store from "./store";
-
 class App extends Component {
   render() {
+    let {iconPic} = this.props;
     return (
       <Provider store={store}>
         <Router>
@@ -54,5 +54,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;

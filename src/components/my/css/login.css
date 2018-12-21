@@ -1,0 +1,74 @@
+/* 头部 */
+
+#headerNav{
+    width: 100%;
+    height: 0.89rem;
+    background: linear-gradient(150deg,#ff5a61 50%,#fd631c);
+    position: relative;
+    box-sizing: border-box;
+}
+#headerNav>a:nth-of-type(1){
+    display: block;
+    width: 0.9rem;
+    height: 0.9rem;
+    padding: 0.2rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#headerNav>a>img{
+    width: 100%;
+    height: 100%;
+}
+#headerNav>p{
+    width: 100%;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    font-size: 0.36rem;
+    text-align: center;
+    color: #ffffff;
+}
+#headerNav>a:nth-of-type(2){
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 0.84rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    color: #ffffff;
+    text-align: center;
+    padding-right: 0.28rem;
+    font-size: 0.28rem;
+}
+
+
+
+
+/* 账号登录 */
+
+#login{
+    width: 100%;
+    height: 9.17rem;
+    padding: 0 0.24rem;
+    background: #ffffff;
+}
+#login>a{
+    display: block;
+    width: 3.51rem;
+    height: 0.88rem;
+    color: #999999;
+    font-size: 0.28rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
