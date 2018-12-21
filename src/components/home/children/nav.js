@@ -10,7 +10,7 @@ export default class Nav extends Component  {
                     homeNav.map((item,index)=>{
                         return <div key={index}>
                             <Link to="#">
-                                <img src={item.child[0].pic} />
+                                <img src={item.child[0].pic} alt="链接" />
                             </Link>
                         </div>
                     })

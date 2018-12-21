@@ -1,0 +1,167 @@
+/* wrapper  content */
+.wrapper .content{
+    padding-bottom: 1rem;
+}
+
+
+/* search */
+#search{
+    width: 7.22rem;
+    height: .87rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: .28rem;
+    background: #fff;
+}
+#search_box{
+    width: 6.34rem;
+    height: .56rem;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: #f2f2f2;
+}
+.search_pic{
+    width: .3rem;
+    height: .3rem;
+    margin: 0 .1rem;
+    display: flex;
+}
+.search_t{
+    margin: 0 .1rem;
+}
+.search_pic .iconfont{
+    font-size: 34px;
+}
+#search_to{
+    width: .88rem;
+    height: .88rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#search_to .iconfont{
+    font-size: .48rem;
+}
+
+
+/* banner */
+.home_banner img{
+    width: 7.50rem;
+    height: 2.90rem;
+}
+
+/* nav */
+#home_nav{
+    width: 100%;
+    height: 1.63rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#home_nav>div{
+    width: 25%;
+    height: 100%; 
+}
+#home_nav>div>a>img{
+    width:100%;
+
+}
+
+/* host */
+#home_host{
+    width: 100%;
+    height: 4.555rem;
+    display: flex;
+}
+.big_pic{
+    width: 3.75rem;
+    height:100%;
+}
+.big_pic>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.big_pic>a>img{
+    width: 100%;
+    height: 100%;
+}
+
+.small_pic{
+    width: 3.75rem;
+    height: 100%;
+}
+.small_pic>a{
+    width: 100%;
+    height: 100%;
+}
+.small_pic>a>img{
+    width: 100%;
+    height: 50%;
+}
+
+
+/* christmas */
+.Crsms_top{
+    width: 100%;
+    height: 2.076rem;
+}
+.Crsms_top>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.Crsms_top>a>img{
+    width: 100%;
+    height: 100%;
+}
+
+.Crsms_center_top{
+    width: 100%;
+    height: 1.985rem;
+    display: flex;
+}
+.Crsms_center_top>div{
+    width: 50%;
+    height: 100%;
+}
+.Crsms_center_top>div>a{
+    width: 100%;
+    height: 100%;
+}
+.Crsms_center_top>div>a>img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* advert */
+.advert_top{
+    width: 100%;
+    height: .958rem;
+    margin-top: .2rem;
+}
+.advert_top>a{
+    width: 100%;
+    height:100%;
+}
+.advert_top>a>img{
+    width: 100%;
+    height:100%;
+}
+
+.advert_bottom{
+    width: 100%;
+    height: 1.944rem;
+    margin-top: .2rem;
+}
+.advert_bottom>a{
+    width: 100%;
+    height:100%;
+}
+.advert_bottom>a>img{
+    width: 100%;
+    height:100%;
+}

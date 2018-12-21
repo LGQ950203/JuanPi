@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
 import "./css/my.css";
-
 export default class My extends Component {
     render() {
         return (

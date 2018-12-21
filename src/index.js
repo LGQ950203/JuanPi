@@ -5,8 +5,6 @@ import "./common/js/flexble";
 
 import "./common/css/reset.css";
 import "./common/css/footer.css";
-import "./components/home/css/banner.css";
-import "./components/home/css/search.css";
-import "./components/home/css/nav.css";
+import "./components/home/css/index.css";
 
 ReactDOM.render(<App /> ,document.getElementById('root'));
