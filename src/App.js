@@ -11,8 +11,6 @@ import store from "./store";
 
 class App extends Component {
   render() {
-    let {iconPic} = this.props;
-    // console.log(iconPic)
     return (
       <Provider store={store}>
         <Router>
