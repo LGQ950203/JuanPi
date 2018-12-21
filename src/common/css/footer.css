@@ -15,6 +15,10 @@
     position: fixed;
     left: 0;
     bottom: 0;
+<<<<<<< HEAD
+=======
+    box-shadow: 0 -0.266667vw 0.533333vw rgba(0,0,0,.1);
+>>>>>>> lgq
     background:#fff;
 }
 
@@ -44,10 +48,10 @@
 }
 
 #footer>ul>li>a>span{
-    font-size: 14px;
+    font-size: 24px;
 }
 
 #footer>ul>li>.active{
-    color: #0089dc;
+    color: #ff464e;
 }
 

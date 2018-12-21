@@ -11,6 +11,10 @@ import store from "./store";
 class App extends Component {
   render() {
     let {iconPic} = this.props;
+<<<<<<< HEAD
+=======
+    // console.log(iconPic)
+>>>>>>> lgq
     return (
       <Provider store={store}>
         <Router>
@@ -28,21 +32,25 @@ class App extends Component {
               <ul>
                 <li>
                   <NavLink to="/home">
+                    <i className="iconfont">&#xe60b;</i>
                     <span>首页</span>
                   </NavLink>
                 </li>
                 <li>
                   <NavLink to="/classify">
+                    <i className="iconfont">&#xe669;</i>
                     <span>分类</span>
                   </NavLink>
                 </li>
                 <li>
                   <NavLink to="/shoppingCar">
+                    <i className="iconfont">&#xe60a;</i>
                     <span>购物车</span>
                   </NavLink>
                 </li>
                 <li>
                   <NavLink to="/my">
+                    <i className="iconfont">&#xe61d;</i>
                     <span>我的卷皮</span>
                   </NavLink>
                 </li>
@@ -54,4 +62,10 @@ class App extends Component {
     );
   }
 }
+<<<<<<< HEAD
 export default App;
+=======
+
+
+export default App;
+>>>>>>> lgq

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component, Fragment } from "react";
 import { HashRouter as Router,Route,Link,NavLink,Switch,Redirect } from "react-router-dom";
 import "../css/login.css";
@@ -28,6 +29,13 @@ export default class Login extends Component {
                     </Router>
                 </div>
             </Fragment>
+=======
+import React,{Component} from "react";
+export default class Login extends Component {
+    render(){
+        return (
+            <div>Login</div>
+>>>>>>> lgq
         )
     }
 }
