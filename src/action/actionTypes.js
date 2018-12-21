@@ -1,5 +1,5 @@
-const icon_type = "ICON_TYPE";
+const home_banner = "HOME_BANNER";
 
 export default {
-    icon_type
+    home_banner
 }

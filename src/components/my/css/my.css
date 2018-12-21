@@ -1,0 +1,78 @@
+/* 头部标题 */
+#userHeader{
+    width: 100%;
+    height: 2.88rem;
+    background: #ff464e;
+}
+#userHeader>.headerTop{
+    display: flex;
+    width: 100%;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    position: relative;
+}
+#userHeader>.headerTop>.iconfont{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 0.48rem;
+    height: 0.88rem;
+    padding: 0 0.28rem;
+    font-size: 0.42rem;
+    color: #ffffff;
+}
+#userHeader>.headerTop>p{
+    width: 100%;
+    text-align: center;
+    font-size: 0.36rem;
+    color: #ffffff;
+    padding: 0 0.88rem;
+}
+
+
+/* 登录注册 */
+#userHeader>.headerBottom{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#userHeader>.headerBottom>a{
+    display: block;
+    width: 2.72rem;
+    height: 2rem;
+    font-size: 0.4rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 2rem;
+    padding: 0 0.96rem;
+}
+#userHeader>.headerBottom>.line{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 0.4rem;
+    width: 0.02rem;
+    background-color: #fff;
+    transform: translate(-50%,-50%);
+}
+
+
+
+/* 主体区 */
+#userbox{
+    width: 100%;
+    height: 9.66rem;
+    background: #cccccc;
+}
+#userbox>.myOrder{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 0.96rem;
+    padding: 0 0.28rem 0 0.36rem;
+    line-height: 0.96rem;
+    font-size: 0.3rem
+}

@@ -1,10 +1,13 @@
 import actionTypes from "./actionTypes";
 import {fetch} from "whatwg-fetch";
 
-export const icon_action = ()=>({
-    type : actionTypes.icon_type,
+export const home_banner_action = ()=>({
+    type : actionTypes.home_banner,
     payload : new Promise(resolve=>{
-        let url = "/index/getMenu?select=2_1&zhouyi_ids=c4_l4";
+        //https://webservice.juanpi.com/api/getIndexNavSkip?page=1&zy_ids=p8_c4_l4&app_name=zhe&catname=newest_zhe
+        //https://webservice.juanpi.com/api/getIndexFirstPaintInfo?cid=&zy_ids=p8_c4_l4&app_name=zhe&app_version=&platform=&catname=newest_zhe
+        
+        let url = "/api/getIndexNavSkip?page=1&zy_ids=p8_c4_l4&app_name=zhe&catname=newest_zhe";
         fetch(url)
         .then(res=>res.json())
         .then((data)=>{

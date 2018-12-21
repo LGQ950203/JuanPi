@@ -1,10 +1,22 @@
+#root{
+    width: 100%;
+    height: 100%;
+}
+#app{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+
 #footer{
     width: 100%;
     height: 1rem;
     position: fixed;
     left: 0;
     bottom: 0;
-    box-shadow: 0 -0.266667vw 0.533333vw rgba(0,0,0,.1)
+    box-shadow: 0 -0.266667vw 0.533333vw rgba(0,0,0,.1);
+    background:#fff;
 }
 
 #footer>ul{
@@ -33,10 +45,10 @@
 }
 
 #footer>ul>li>a>span{
-    font-size: 14px;
+    font-size: 24px;
 }
 
 #footer>ul>li>.active{
-    color: #0089dc;
+    color: #ff464e;
 }
 
